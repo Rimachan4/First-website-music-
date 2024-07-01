@@ -1,0 +1,154 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  color: rgb(255, 255, 255);
+  background-color: rgb(156, 5, 5);
+  padding: 22px 20px;
+  box-sizing: border-box;
+  position:sticky;
+}
+
+
+
+#navbar{
+  display: flex;
+}
+
+.nav1{
+  margin:20px;
+}
+.nav2{
+  margin:20px;
+}
+.nav3{
+  margin:20px;
+}
+.nav4{
+  margin:20px;
+}
+
+#music{
+  
+  background-image: url(musicr.jpg);
+  
+  width:80%;
+  float:left;
+  height:900px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+ 
+}
+#music h1 {
+  color:white;
+  text-shadow:5px 10px 50px rgb(32, 31, 31);
+  font-size:105px;
+  margin: 70px;
+ 
+}
+
+#music-wrapper{
+ 
+  border-radius:2px;
+}
+
+#music-container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#button-container{
+  background-color: #9f0a0a;
+  width:20%;
+  float:right;
+  height:900px;
+  background-image: URL(MYD.jpeg);
+  
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  
+}
+
+.button1{
+
+  margin-top:50px;
+  margin-left:50px;
+  width:210px;
+  height:60px;
+  padding:10px;
+  background-color: black;
+  color:white;
+  border-radius: 35px;
+  stroke:white;
+  font-size:20px;
+  font-family: sans-serif;
+  outline:none;
+  box-shadow: 2px 2px 10px rgb(55, 55, 55);
+
+}
+
+.button2{
+  
+  margin-top:50px;
+  margin-left:50px;
+  width:210px;
+  height:60px;
+  padding:10px;
+  background-color: black;
+  color:white;
+  border-radius: 35px;
+  font-size:20px;
+  font-family: sans-serif;
+  outline:none;
+  stroke:white;
+  box-shadow: 2px 2px 10px rgb(55, 55, 55);
+ 
+}
+
+/*.inner-img{
+
+  background-image: URL(lm.jpeg);
+}*/
+
+.button1:hover{
+  box-shadow: 2px 2px 10px rgb(137, 137, 137);
+  transition: 0.4s;
+}
+
+.button2:hover{
+  box-shadow: 2px 2px 10px rgb(137, 137, 137);
+  transition: 0.4s;
+}
+
+.nav1:hover{
+  color:black;
+  delay:0.2s;
+}
+.nav2:hover{
+  color:black;
+  delay:0.2s;
+}
+.nav3:hover{
+  color:black;
+  delay:0.2s;
+}
+.nav4:hover{
+  color:black;
+  delay:0.2s;
+}
